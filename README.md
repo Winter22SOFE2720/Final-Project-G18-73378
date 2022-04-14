@@ -1,3 +1,3 @@
 # Final-Project-G18
-Project Description
-Our store provides quality furniture for low prices, shipped to your house for convenience.
+<h1>Project Description</h1>
+  <p>Our store provides quality furniture for low prices, shipped to your house for convenience.</p>
