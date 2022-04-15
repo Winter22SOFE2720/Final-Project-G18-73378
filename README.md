@@ -5,19 +5,24 @@ through the latest styles. Our store provides quality furniture for low prices, 
 
 
 <h1>Group Members</h1>
-<table>
+<table style="width:100%">
   <tr>
-    <th>Name</th>
-    <th>Student ID</th>
+    <td>Name</td>
+    <td>Student ID</td>
   </tr>
   <tr>
     <td>Andy Lau</td>
-    <td>Zainab Nomani</td>
-    <td>Varun Suthakaran</td>
+    <td>100754380</td>
   </tr>
-  <tr>
-    <td></td>
+  
+   <tr>
+    <td>Zainab Nomani</td>
     <td>100784761</td>
-    <td></td>
+  </tr>
+  
+   <tr>
+    <td>Varun Suthakaran</td>
+    <td>100786452</td>
   </tr>
 </table>
+
