@@ -4,7 +4,7 @@
 through the latest styles. Our store provides quality furniture for low prices, shipped to your house for convenience.</p>
 
 <h1>Table of Contents</h1>
-<h4>Code</h4>
+<a href="https://github.com/Winter22SOFE2720/Final-Project-G18-73378/tree/main/Code">Code</a>
 
 <h4>Main Folder</h4>
 <h6>Requirements Traceability Matrix</h6>
