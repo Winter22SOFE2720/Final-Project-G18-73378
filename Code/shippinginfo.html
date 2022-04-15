@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<title>Customer Information</title>
+
+<h1>Customer Information</h1>
+
+<form onsubmit="return validateForm()">
+<div>
+<h3>Sign in</h3>
+	<label for="email">Enter your email:</label>
+	<input type="email" id="email" name="email">
+<br>
+	<label for="password">Enter your password:</label>
+	<input type="password" value="1234" id="password">
+</div>
+
+<div>
+	<h3>Shipping Address</h3>
+<br>
+	<label for="houseno">Unit#/House#</label>
+	<input type="text" id="house" name="house">
+<br>
+	<label for="postal">Postal Code</label>
+	<input type="number" id="postal" name="postal">
+<br>
+	<label for="city">City</label>
+	<input type="text" id="city" name="city">
+<br>
+	<label for="prov">Province</label>
+	<input type="text" id="prov" name="prov">
+<br>
+	<label for="number">Number</label>
+	<input type="number" id="number" name="number">
+<br>
+</div>
+
+
+<input type="submit" value="Submit" id="submit">
+<br>
+
+<a href="furniturestore.html">go back to shopping</a>
+
+</form>
+
+<p id="test">
+
+
+
+</p>
+
+
+<script type="text/javascript">
+	
+	function validateForm() {
+
+
+		if (document.getElementById("city").value == "" || document.getElementById("password").value == "" || document.getElementById("house").value == "" || document.getElementById("postal").value == "" || document.getElementById("city").value == "" || document.getElementById("prov").value == "" || document.getElementById("number").value == "")
+
+			alert("All fields must be filled out")
+
+	}
+
+
+</script>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>The Furniture Store</title>
+
+<h1>The Furniture Store</h1>
+
+<form onsubmit="validateCart();return false">
+<div>
+<h3>Queen Size Bed</h3>
+<img src = "bed.jpg"></img>
+<br>
+<h4>$899</h4>
+<label for="name">Qty</label>
+<input type="number" name="bedqty" id="bedqty" value=" ">
+</div>
+
+<br>
+<br>
+
+<div>
+<h3>Desk</h3>
+<img src = "desk.png"></img>
+<br>
+<h4>$100</h4>
+<label for="name">Qty</label>
+<input type="number" name="desqty" id="deskqty" min="1" max="10">
+</div>
+
+<br>
+<br>
+
+<div>
+<h3>Dining Room Set</h3>
+<img src = "dining.jpg"></img>
+<br>
+<h4>$1500</h4>
+<label for="range">Qty</label>
+<input type="number" name="diningqty" id="diningqty" value=" ">
+</div>
+
+<br>
+
+<input type="submit" value="Add Items to Cart" id="submit">
+
+	
+
+</form>
+
+<br>
+
+<div> 
+
+	<button onclick="checkCart()">Check Cart
+	</button>
+
+	<p id="bill">
+		
+	</p>
+
+	<a href="shippinginfo.html">go to shipping info</a>
+
+</div>
+
+
+
+
+<script type="text/javascript">
+
+	var bedcost = ""
+	var deskcost = "" 
+	var diningcost = ""
+	var cost = ""
+
+	function validateCart() {
+		bedcost += document.getElementById("bedqty").value
+		deskcost += document.getElementById("deskqty").value 
+		diningcost += document.getElementById("diningqty").value
+		cost += (bedcost * 899) + (deskcost * 100) + (diningcost * 1500)
+		
+
+	}
+
+	function checkCart() {
+
+		var text = "Your cart currently has <br>"
+		
+		if (document.getElementById("bedqty").value == "") {
+			
+			text += "0 Beds <br>"
+		}
+
+		else {
+			text += document.getElementById("bedqty").value
+			text += " Beds <br>" 
+		}
+
+		if (document.getElementById("deskqty").value == "") {
+			
+			text += "0 Desks <br>"
+		}
+
+		else {
+			text += document.getElementById("deskqty").value 
+			text += " Desks <br>" 
+		}
+
+		if (document.getElementById("diningqty").value  == "") {
+			
+			text += "0 Dining Sets <br>"
+		}
+
+		else {
+			text += document.getElementById("diningqty").value  
+			text += " Dining Sets <br>"
+		}	
+
+		text += "The total cost is "
+		text += cost
+
+		document.getElementById("bill").innerHTML = text;
+
+	}
+
+</script>
+</html>
