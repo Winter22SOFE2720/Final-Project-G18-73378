@@ -6,18 +6,24 @@ through the latest styles. Our store provides quality furniture for low prices, 
 <h1>Table of Contents</h1>
 <a href="https://github.com/Winter22SOFE2720/Final-Project-G18-73378/tree/main/Code">Code</a>
 
-<h4>Main Folder</h4>
+<p> + + + + + + + + + + + + + + + + + + + + </p>
+
+<a href="https://github.com/Winter22SOFE2720/Final-Project-G18-73378/tree/main/Main%20Folder">Main Folder</a>
 <h6>Requirements Traceability Matrix</h6>
 <h6>Team Assessment</h6>
 
-<h4>Requirements Folder</h4>
+<p> + + + + + + + + + + + + + + + + + + + + </p>
+
+<a href="https://github.com/Winter22SOFE2720/Final-Project-G18-73378/tree/main/Requirements%20Folder">Requirements Folder</a>
 <h6>List of Requirements List</h6>
 <h6>Review Report Requierements List</h6>
 
-<h4>Test Case Folder</h4>
+<p> + + + + + + + + + + + + + + + + + + + + </p>
+<a href="https://github.com/Winter22SOFE2720/Final-Project-G18-73378/tree/main/Test%20Case">Test Case</a>
 <h6>Jest Test (Unit and Integration Test & Acceptance Test)</h6>
 
-<h4>Use Case Folder</h4>
+<p> + + + + + + + + + + + + + + + + + + + + </p>
+<a href="https://github.com/Winter22SOFE2720/Final-Project-G18-73378/tree/main/Use%20Case%20Folder">Use Case Folder</a>
 <h6>USe Case Analysis</h6>
 
 
