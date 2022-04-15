@@ -3,6 +3,26 @@
   <p>This project surrounds an online furniture store where users can browse
 through the latest styles. Our store provides quality furniture for low prices, shipped to your house for convenience.</p>
 
+<h1>Table of Contents</h1>
+<h4>Code</h4>
+
+<h4>Main Folder</h4>
+<h6>Requirements Traceability Matrix</h6>
+<h6>Team Assessment</h6>
+
+<h4>Requirements Folder</h4>
+<h6>List of Requirements List</h6>
+<h6>Review Report Requierements List</h6>
+
+<h4>Test Case Folder</h4>
+<h6>Jest Test (Unit and Integration Test & Acceptance Test)</h6>
+
+<h4>Use Case Folder</h4>
+<h6>USe Case Analysis</h6>
+
+
+
+
 
 <h1>Group Members</h1>
 <table style="width:100%">
