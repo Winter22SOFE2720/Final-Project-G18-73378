@@ -8,6 +8,14 @@ through the latest styles. Our store provides quality furniture for low prices, 
 
 <p> + + + + + + + + + + + + + + + + + + + + </p>
 
+<a href="https://github.com/Winter22SOFE2720/Final-Project-G18-73378/tree/main/Design%20Folder">Design Folder</a>
+<h6>Conceptual Model Diagram</h6>
+<h6>Sequence Diagram</h6>
+<h6>State Machine Diagram</h6>
+<h6>Design Review Report</h6>
+
+<p> + + + + + + + + + + + + + + + + + + + + </p>
+
 <a href="https://github.com/Winter22SOFE2720/Final-Project-G18-73378/tree/main/Main%20Folder">Main Folder</a>
 <h6>Requirements Traceability Matrix</h6>
 <h6>Team Assessment</h6>
@@ -24,7 +32,7 @@ through the latest styles. Our store provides quality furniture for low prices, 
 
 <p> + + + + + + + + + + + + + + + + + + + + </p>
 <a href="https://github.com/Winter22SOFE2720/Final-Project-G18-73378/tree/main/Use%20Case%20Folder">Use Case Folder</a>
-<h6>USe Case Analysis</h6>
+<h6>Use Case Analysis</h6>
 
 
 
